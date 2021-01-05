@@ -17,5 +17,5 @@ def bruteforce(username,url):
           
 url='http://10.0.0.1/login'
 username= 'admin'
-with open('/root/Desktop/brute/Brute-force-Instagram-2020/pass.txt','r') as passwords:
+with open('pass.txt','r') as passwords:
     bruteforce(username, url)
